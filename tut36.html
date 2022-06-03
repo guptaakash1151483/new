@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+    <style>
+        .container{
+            background-color: yellowgreen;
+        }
+        .box{
+            background-color: rgb(216, 68, 221, 0.5);
+            width: 300px;
+            height: 300px;
+            position: relative;
+            animation-name: akash2;
+            animation-duration: 8s;
+            animation-iteration-count: 3;
+        }
+        @keyframes akash1 {
+            from{
+                background-color: black;
+            }
+            to{
+                background-color: turquoise;
+            }
+        }
+        @keyframes akash2 {
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 0px;
+                left: 300px;
+            }
+            50%{
+                top: 300px;
+                left: 300px;
+            }
+            75%{
+                top: 300px;
+                left:0px
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Animations</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugiat asperiores expedita eaque dolorem exercitationem odio, officiis neque odit! Accusamus exercitationem amet totam ullam similique.</p>
+        </div>
+    </div>
+</body>
+</html>

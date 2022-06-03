@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Css Selectors</title>
+    <style>
+        /* div p{
+            background-color: cadetblue;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 25px;
+        } */
+        /* div > p{
+            background-color: cadetblue;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 25px;
+        } */
+        div + p{
+            background-color: cadetblue;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is heading one</h1>
+    <div class="container">
+        <p>This is first paragraph</p>
+        <li>
+            <p>This is second paragraph</p>
+        </li>
+    </div>
+    <p>This is third paragraph</p>
+</body>
+</html>

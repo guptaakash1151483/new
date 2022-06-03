@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and Z index</title>
+    <style>
+        .box{
+            height: 180px;
+            width: 200px;
+            box-sizing: border-box;
+        }
+        #box1{
+            color: black;
+            background-color:cyan;
+            position: relative;
+            top: 30px;
+            z-index: 3;
+        }
+        #box2{
+            color: black;
+            background-color: burlywood;
+            position: relative;
+            z-index: 2;
+        }
+        #box3{
+            color: black;
+            background-color: rgb(163, 233, 198);
+        }
+        #box4{
+            color: black;
+            background-color: rgb(202, 151, 202);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto, blanditiis dolor sequi facere ullam vero mollitia amet tempora excepturi autem doloribus unde! Officia fugiat magnam perferendis, ipsum quibusdam saepe.</div>
+    <div class="box" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto, blanditiis dolor sequi facere ullam vero mollitia amet tempora excepturi autem doloribus unde! Officia fugiat magnam perferendis, ipsum quibusdam saepe.</div>
+    <div class="box" id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto, blanditiis dolor sequi facere ullam vero mollitia amet tempora excepturi autem doloribus unde! Officia fugiat magnam perferendis, ipsum quibusdam saepe.</div>
+    <div class="box" id="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto, blanditiis dolor sequi facere ullam vero mollitia amet tempora excepturi autem doloribus unde! Officia fugiat magnam perferendis, ipsum quibusdam saepe.</div>
+</body>
+</html>

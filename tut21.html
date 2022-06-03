@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allignment</title>
+    <style>
+        body{
+            background-color: hotpink;
+        }
+       .container{
+           width: 1000px;
+           height: 500px;
+           border: 3px solid rgb(229, 153, 219);
+           margin: auto;
+           background-color: indigo;
+           box-sizing: border-box;
+       }
+       .item{
+           border: 2px solid green;
+           margin: 12px 3px;
+           padding: 12px 3px;
+       }
+       #fruits{
+            float:left;
+            width: 46%;
+       }
+       #computer{
+            float: right;
+            width: 46%;
+            text-align: right;
+       }
+       #stationary{
+            /* float: left;  */
+            clear: both;
+            width: 100%;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum ex maiores illum ipsum provident animi? Consequuntur pariatur veniam eius ex, accusamus, fuga recusandae dignissimos ut numquam doloribus cum aut.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum ex maiores illum ipsum provident animi? Consequuntur pariatur veniam eius ex, accusamus, fuga recusandae dignissimos ut numquam doloribus cum aut.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum ex maiores illum ipsum provident animi? Consequuntur pariatur veniam eius ex, accusamus, fuga recusandae dignissimos ut numquam doloribus cum aut.</p>
+        </div>    
+    </div>
+</body>
+</html>
